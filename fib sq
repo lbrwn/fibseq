@@ -1,0 +1,7 @@
+let fq = [0, 1];
+
+for (let i = 2; i < 10; ++i) {
+    fq[i] = fq[i - 2] + fq[i - 1];
+}
+
+console.log(fq);
